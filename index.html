@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./public/bundle.js" defer></script>
+    <title>Project:Library</title>
+</head>
+<body>
+    <header class="navbar-menu">
+        <nav>
+            <img src="./img/golbez_01.png" alt="dungeon_library_logo">
+            <h1 class="title">LIBRARY IN THE DUNGEON</h1>
+            <ul>
+                <li><a href="#section1">WELCOME</a></li>
+                <li><a href="#section2">LIBRARY</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="welcome-side" id="section1">
+        <div class="title-welcome">
+            <h1>WELCOME BRAVE ADVENTURE!</h1>
+            <p>The objective of the library in the dungeon is to provide the user with the means to record the books they are reading and delete those they have finished.</p>
+            <p>Hoping you like it, I wish you a pleasant exploration in the dungeon.</p>
+        </div>
+
+        <div class="containerLeft">
+            <h3>BOOK DETAILS</h3>
+            <hr>
+            <form id="form">
+                <label for="book">Name Book:</label>
+                <input type="text" id="book" name="book" required />
+          
+                <label for="author">Author:</label>
+                <input type="text" id="author" name="author" required />
+          
+                <label for="pageNumber">Page number:</label>
+                <input type="number" id="pageNumber" name="pageNumber" min="0" required />
+          
+                <button type="submit">SUBMIT</button>
+            </form>
+            
+        </div>
+
+        <div class="containerRight">
+            <img src="./img/bungeon_path02.jpg" alt="dungeon01">
+        </div>
+        
+    </section>
+    
+    <section id="section2" class="section2">
+        
+        <div id="data-box"></div>
+        
+    </section>
+
+    
+</body>
+</html>

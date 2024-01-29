@@ -1,0 +1,38 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    font-weight: lighter;
+    background-color: #3a57ff;
+
+    h1 {
+        color: red;
+    }
+
+    ul li {
+        display: inline-block;
+        padding: 0px 10px;
+    }
+
+    a{
+        color: red;
+    }
+
+    a:hover {
+        color: rgba(135, 13, 115, 0.768);
+    }
+
+    img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.navbar-menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 0;
+}
